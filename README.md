@@ -1,6 +1,8 @@
-NorthMeeDee Amulet
-
-ระบบซื้อขายพระเครื่องออนไลน์ พัฒนาด้วย React, Node.js, Express, Prisma และ PostgreSQL รองรับทั้งผู้ใช้งานทั่วไปและผู้ดูแลระบบ
+# NorthMeeDee Amulet
+<p align="center">
+  <img src="docs/images/home.png" width="1000">
+</p>
+ระบบซื้อขายพระเครื่องออนไลน์ ซื้อ ขาย แลกเปลี่ยน พระเครื่องแท้จากทั่วประเทศ
 
 ## Features
 
