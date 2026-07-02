@@ -43,10 +43,16 @@ app.use(
       : 'dev'
   )
 );
-
-app.get('/health', (req, res) => {
+app.get("/", (req, res) => {
   res.json({
-    status: 'ok',
+    success: true,
+    message: "NorthMeeDee API",
+    version: "1.0.0",
+  });
+});
+app.get("/health", (req, res) => {
+  res.json({
+    status: "ok",
     time: new Date().toISOString(),
   });
 });

@@ -1,0 +1,48 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: northmeedee-postgres
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_USER: patcharadnai
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: northamulet
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  backend:
+    build: ./backend
+    container_name: northmeedee-backend
+
+    restart: unless-stopped
+
+    env_file:
+      - ./backend/.env
+
+    ports:
+      - "3000:3000"
+
+    depends_on:
+      - postgres
+
+  frontend:
+    build: ./frontend
+    container_name: northmeedee-frontend
+
+    restart: unless-stopped
+
+    ports:
+      - "5173:5173"
+
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
