@@ -1,8 +1,17 @@
 # NorthMeeDee Amulet
+
 <p align="center">
   <img src="docs/images/home.png" width="1000">
 </p>
+
 ระบบซื้อขายพระเครื่องออนไลน์ ซื้อ ขาย แลกเปลี่ยน พระเครื่องแท้จากทั่วประเทศ
+
+## Live Demo
+
+- **Frontend:** https://northmeedee-frontend.onrender.com
+- **Backend API:** https://northmeedee-api.onrender.com
+- **Swagger API Docs:** https://northmeedee-api.onrender.com/api-docs
+
 
 ## Features
 
@@ -15,7 +24,6 @@
 - รีวิวสินค้า
 - ระบบจัดการหลังบ้าน (Admin)
 
----
 
 ## Tech Stack
 
@@ -26,7 +34,6 @@
 - Docker & Docker Compose
 - Cloudinary
 
----
 
 ## Getting Started
 
@@ -37,9 +44,7 @@ cd northmeedee-amulet
 docker compose up --build
 
 Frontend http://localhost:5173
-
 Backend http://localhost:3000
-
 Swagger http://localhost:3000/api-docs
 
 ## Admin Account
@@ -57,3 +62,5 @@ README.md
 
 ## Developer
 **Patcharadnai Mingchua**
+- GitHub: https://github.com/Patcharadnaimingchua
+- Email: patcharadnaimingchua@gmail.com
