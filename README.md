@@ -1,66 +1,95 @@
 # NorthMeeDee Amulet
 
 <p align="center">
-  <img src="docs/images/home.png" width="1000">
+  <img src="docs/images/home.png" width="1000" alt="NorthMeeDee Amulet">
 </p>
 
-ระบบซื้อขายพระเครื่องออนไลน์ ซื้อ ขาย แลกเปลี่ยน พระเครื่องแท้จากทั่วประเทศ
+E-commerce web application for buying and selling authentic Thai amulets. Built with React, Node.js, Express, PostgreSQL, Prisma ORM, Docker, and Cloudinary.
+
+---
 
 ## Live Demo
 
 - **Frontend:** https://northmeedee-frontend.onrender.com
 - **Backend API:** https://northmeedee-api.onrender.com
-- **Swagger API Docs:** https://northmeedee-api.onrender.com/api-docs
+- **Swagger:** https://northmeedee-api.onrender.com/api-docs
 
+---
 
 ## Features
 
-- สมัครสมาชิก / เข้าสู่ระบบ
-- ค้นหาและเลือกซื้อพระเครื่อง
+- User Registration & Login
+- Product Search & Filtering
 - Wishlist
-- ตะกร้าสินค้า
-- แจ้งชำระเงิน
-- ติดตามคำสั่งซื้อ
-- รีวิวสินค้า
-- ระบบจัดการหลังบ้าน (Admin)
+- Shopping Cart
+- Checkout & Payment Notification
+- Order Tracking
+- Product Reviews
+- Admin Dashboard
 
+---
 
 ## Tech Stack
 
 - React + Vite
-- Node.js + Express
+- Node.js + Express.js
 - PostgreSQL
 - Prisma ORM
 - Docker & Docker Compose
 - Cloudinary
 
+---
 
 ## Getting Started
+
+Clone the repository
 
 ```bash
 git clone https://github.com/Patcharadnaimingchua/northmeedee-amulet.git
 cd northmeedee-amulet
+```
 
+Run the project
+
+```bash
 docker compose up --build
+```
 
-Frontend http://localhost:5173
-Backend http://localhost:3000
-Swagger http://localhost:3000/api-docs
+Local URLs
 
-## Admin Account
+```
+Frontend: http://localhost:5173
+Backend:  http://localhost:3000
+Swagger:  http://localhost:3000/api-docs
+```
+
+---
+
+## Demo Account
+
+**Admin**
+
+```
 Email: admin@northamulet.com
 Password: Admin@123
+```
+
+---
 
 ## Project Structure
 
+```
 backend/
 frontend/
 docker-compose.yml
 README.md
+```
 
 ---
 
 ## Developer
+
 **Patcharadnai Mingchua**
+
 - GitHub: https://github.com/Patcharadnaimingchua
 - Email: patcharadnaimingchua@gmail.com
